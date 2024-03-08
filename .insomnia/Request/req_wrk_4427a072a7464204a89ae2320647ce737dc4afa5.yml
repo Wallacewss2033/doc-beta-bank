@@ -1,0 +1,31 @@
+_id: req_wrk_4427a072a7464204a89ae2320647ce737dc4afa5
+type: Request
+parentId: fld_wrk_4427a072a7464204a89ae2320647ce73ca20728d
+modified: 1709927481367
+created: 1709784156329
+url: "{{ base_url }}/accounts/transactions"
+name: transaction
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "sender": "string",
+      "receiver": "string",
+      "value": 17.57,
+      "date": "2024-03-08"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1709784156329
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
